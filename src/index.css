@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primaryColor:#232536;
+    --color-secondaryColor:#FFFFFF;
+    --color-pureColor:#FFD3AF;
+    --color-activeColor:#FFA155;
+    --color-boxColor:#666DFF;
+    --color-experienceColor:#FFD3AF91;
+    --color-logoBarColor:#FAFAFC;
+    --color-expertiseColor:#ECF8F9;
+    --color-boldColor:#000000;
+    --color-paragColor:#5D5F6D;
+    --color-blockColors:#444CFC;
+    --color-borderColor:#00000014;
+    --color-footerColor:#FFE6D2;
+    --color-carrerColor:#5D5FEF;
+    --color-blogColor:#FFDFC6;
+    --color-blockItemsColor:#F9F9FF;
+    --color-allSectionColor:#F9F9F9;
+    --color-templateColor:#ECF8F9;
+}
+
+@layer components {
+    body {
+        font-family: 'Poppins';
+    }
+    
+    .containers {
+        @apply max-w-7xl m-auto py-0 px-5;
+    }
+
+    .main-header {
+       @apply font-semibold text-5xl leading-14.5 m-[20px_0_24px]
+    }
+
+    .pre-header {
+        @apply uppercase tracking-[3px] font-medium text-[0.8rem] leading-5 text-boldColor;
+    }
+
+    .paragraph {
+        @apply font-normal leading-6;
+    }
+
+    .title {
+        @apply font-semibold leading-13.5 text-4xl;
+    }
+}

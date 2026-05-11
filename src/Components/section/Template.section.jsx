@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import HomeMadeShape from '../logos/Home.made.shapes';
+=======
+import HomeMadeShape from '../../Components/logos/Home.made.shapes';
+>>>>>>> 99814d1 (404 not found)
 import {Arrow} from '../logos/Footer.logos';
 import personal1 from "../../assets/img/personal1.png";
 import personal2 from "../../assets/img/personal2.png";

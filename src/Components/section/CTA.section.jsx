@@ -2,7 +2,11 @@ import { RectangleShape, Shape } from "../logos/CTA.logos";
 
 export default function CTA() {
     return (
+<<<<<<< HEAD
     <section>
+=======
+    <section className="mt-5">
+>>>>>>> 99814d1 (404 not found)
       <div className="containers">
         <div className="bg-boxColor relative p-24 flex justify-between items-center">
           <Shape className='absolute left-0 top-0' />

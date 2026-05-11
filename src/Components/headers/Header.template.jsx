@@ -5,7 +5,7 @@ import { Facebook, Twitter , Instagram } from "../logos/Media.logos";
 
 export default function header() {
     const {img} = useContext(UserContext);
-    const icons =  [ <Facebook /> , <Twitter/> , <Instagram /> ];
+    const icons = [<Facebook />, <Twitter />, <Instagram />];
 
     return (
         <header>

@@ -1,7 +1,7 @@
 import { useContext} from "react";
 import { Link } from "react-router-dom";
 import {UserContext} from "../../context/UserContext";
-import { Facebook, Twitter, Instagram, LinkedIn } from "../logos/Media.logos";
+import { Twitter, Instagram, LinkedIn } from "../logos/Media.logos";
 
 export default function Team() {
     const teamMembers = [
@@ -53,11 +53,16 @@ export default function Team() {
 
                             <div className="absolute inset-0 bg-gray-600/80 opacity-0 transition duration-300 group-hover:opacity-100 flex flex-col items-center justify-center text-white text-center px-4">
                                 <p className="font-semibold text-lg">{member.name}</p>
-                                <div className="mt-3 flex items-center gap-3">
-                                    <span className="hover:text-secondaryColor cursor-pointer"><Facebook /></span>
-                                    <span className="hover:text-secondaryColor cursor-pointer"><Twitter /></span>
-                                    <span className="hover:text-secondaryColor cursor-pointer"><Instagram /></span>
-                                    <span className="hover:text-secondaryColor cursor-pointer"><LinkedIn /></span>
+                                <div className="mt-4 flex items-center gap-4">
+                                    <a href="https://twitter.com" target="_blank" rel="noreferrer" className="hover:text-secondaryColor">
+                                        <Twitter />
+                                    </a>
+                                    <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-secondaryColor">
+                                        <Instagram />
+                                    </a>
+                                    <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-secondaryColor">
+                                        <LinkedIn />
+                                    </a>
                                 </div>
                             </div>
                         </Link>
